@@ -1,4 +1,4 @@
-package com.example.users;
+package com.users;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.test.context.TestConfiguration;
@@ -17,7 +17,7 @@ public class TestDemoApplication {
 	}
 
 	public static void main(String[] args) {
-		SpringApplication.from(DemoApplication::main).with(TestDemoApplication.class).run(args);
+		SpringApplication.from(Main::main).with(TestDemoApplication.class).run(args);
 	}
 
 }

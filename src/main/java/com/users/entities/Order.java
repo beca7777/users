@@ -13,7 +13,7 @@ import java.time.Instant;
 @NoArgsConstructor
 @AllArgsConstructor
 @EqualsAndHashCode(callSuper = false)
-public class Order extends BaseEntity{
+public class Order extends BaseEntity {
 
     private Instant deliveryDate;
 

@@ -17,7 +17,6 @@ import java.util.Objects;
 @MappedSuperclass
 @NoArgsConstructor
 @AllArgsConstructor
-//@ToString
 @SuperBuilder(toBuilder = true)
 public abstract class BaseEntity {
     @Id
